@@ -1,0 +1,413 @@
+[
+  {
+    "id": "q01",
+    "question": "What is the closest planet to the Sun and what are its surface temperatures like?",
+    "retrieved_context": [
+      {"id": "c02", "text": "Venus is the second planet from the Sun and is almost the same size as Earth. Its thick atmosphere is made mostly of carbon dioxide and traps heat so effectively that Venus is the hottest planet in the Solar System, with surface temperatures around 465 degrees Celsius. Venus rotates in the opposite direction to most planets, a phenomenon called retrograde rotation."},
+      {"id": "c01", "text": "Mercury is the closest planet to the Sun and the smallest planet in the Solar System. It has almost no atmosphere, which means its surface temperature swings from about 430 degrees Celsius during the day to minus 180 degrees Celsius at night. A single day on Mercury, from sunrise to sunrise, lasts roughly 176 Earth days."},
+      {"id": "c08", "text": "Neptune is the eighth and farthest known planet from the Sun and, like Uranus, is classified as an ice giant. It has the strongest sustained winds of any planet in the Solar System, with gusts recorded at over 2,000 kilometers per hour. Neptune's existence was predicted mathematically before it was observed, based on irregularities in the orbit of Uranus."}
+    ],
+    "answer": "Mercury is the closest planet to the Sun and the smallest planet in the Solar System. Neptune is the eighth and farthest known planet from the Sun and, like Uranus, is classified as an ice giant.",
+    "relevant_context_ids": ["c01"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q02",
+    "question": "Why is Venus the hottest planet in the Solar System?",
+    "retrieved_context": [
+      {"id": "c02", "text": "Venus is the second planet from the Sun and is almost the same size as Earth. Its thick atmosphere is made mostly of carbon dioxide and traps heat so effectively that Venus is the hottest planet in the Solar System, with surface temperatures around 465 degrees Celsius. Venus rotates in the opposite direction to most planets, a phenomenon called retrograde rotation."},
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."},
+      {"id": "c04", "text": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. It has two small moons, Phobos and Deimos, which are thought to be captured asteroids."}
+    ],
+    "answer": "Venus is the second planet from the Sun and is almost the same size as Earth. Its thick atmosphere is made mostly of carbon dioxide and traps heat so effectively that Venus is the hottest planet in the Solar System, with surface temperatures around 465 degrees Celsius.",
+    "relevant_context_ids": ["c02"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q03",
+    "question": "What percentage of Earth's surface is covered by water?",
+    "retrieved_context": [
+      {"id": "c03", "text": "Earth is the third planet from the Sun and the only known planet to support life. About 71 percent of its surface is covered by water. Earth's atmosphere is roughly 78 percent nitrogen and 21 percent oxygen, and its single natural satellite, the Moon, stabilizes the planet's axial tilt."},
+      {"id": "c23", "text": "Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth."},
+      {"id": "c12", "text": "The Apollo 11 mission, launched by NASA in July 1969, achieved the first crewed Moon landing. Astronauts Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins remained in orbit aboard the command module. Armstrong's first words upon stepping onto the surface were broadcast live to a television audience estimated at over 600 million people."}
+    ],
+    "answer": "About 71 percent of its surface is covered by water. Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity.",
+    "relevant_context_ids": ["c03"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q04",
+    "question": "Why does Mars appear red, and what is its tallest volcano?",
+    "retrieved_context": [
+      {"id": "c04", "text": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. It has two small moons, Phobos and Deimos, which are thought to be captured asteroids."},
+      {"id": "c16", "text": "The Mars rovers Curiosity and Perseverance were sent to search for evidence of past microbial life and to study the Martian climate and geology. Perseverance, which landed in Jezero Crater in February 2021, carries a small helicopter named Ingenuity that became the first aircraft to achieve powered, controlled flight on another planet. Curiosity has been operating on Mars since 2012."},
+      {"id": "c22", "text": "The Great Red Spot on Jupiter is a persistent anticyclonic storm large enough to fit two or three Earths inside it, though observations over the past century show it has been gradually shrinking. Wind speeds at its outer edges can exceed 400 kilometers per hour."}
+    ],
+    "answer": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall.",
+    "relevant_context_ids": ["c04"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q05",
+    "question": "What is the Great Red Spot on Jupiter?",
+    "retrieved_context": [
+      {"id": "c05", "text": "Jupiter is the largest planet in the Solar System, with a mass more than 300 times that of Earth. It is a gas giant composed mainly of hydrogen and helium and is known for its Great Red Spot, a giant storm that has been raging for at least 150 years. Jupiter has 95 confirmed moons, including the four large Galilean moons: Io, Europa, Ganymede, and Callisto."},
+      {"id": "c22", "text": "The Great Red Spot on Jupiter is a persistent anticyclonic storm large enough to fit two or three Earths inside it, though observations over the past century show it has been gradually shrinking. Wind speeds at its outer edges can exceed 400 kilometers per hour."},
+      {"id": "c23", "text": "Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth."}
+    ],
+    "answer": "It is a gas giant composed mainly of hydrogen and helium and is known for its Great Red Spot, a giant storm that has been raging for at least 150 years. The Great Red Spot on Jupiter is a persistent anticyclonic storm large enough to fit two or three Earths inside it, though observations over the past century show it has been gradually shrinking.",
+    "relevant_context_ids": ["c05", "c22"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q06",
+    "question": "What makes Saturn's moon Titan unusual?",
+    "retrieved_context": [
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."},
+      {"id": "c24", "text": "The Moon formed roughly 4.5 billion years ago, most likely from debris left after a Mars-sized body, sometimes called Theia, collided with the early Earth. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions."},
+      {"id": "c23", "text": "Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth."}
+    ],
+    "answer": "Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth.",
+    "relevant_context_ids": ["c06"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q07",
+    "question": "Why does Uranus have extreme seasons?",
+    "retrieved_context": [
+      {"id": "c07", "text": "Uranus is an ice giant and the seventh planet from the Sun. It is unique among the planets because it rotates on its side, with an axial tilt of about 98 degrees, which causes extreme seasons that each last around 21 years. Uranus was the first planet discovered using a telescope, found by William Herschel in 1781."},
+      {"id": "c08", "text": "Neptune is the eighth and farthest known planet from the Sun and, like Uranus, is classified as an ice giant. It has the strongest sustained winds of any planet in the Solar System, with gusts recorded at over 2,000 kilometers per hour. Neptune's existence was predicted mathematically before it was observed, based on irregularities in the orbit of Uranus."},
+      {"id": "c13", "text": "The Voyager 1 and Voyager 2 probes were launched by NASA in 1977 to study the outer planets. Voyager 2 remains the only spacecraft to have visited Uranus and Neptune up close. Both probes have since left the heliosphere and entered interstellar space, and they continue to transmit data back to Earth using radioactive decay for power."}
+    ],
+    "answer": "Uranus is an ice giant and the seventh planet from the Sun. It is unique among the planets because it rotates on its side, with an axial tilt of about 98 degrees, which causes extreme seasons that each last around 21 years.",
+    "relevant_context_ids": ["c07"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q08",
+    "question": "What is notable about Neptune's winds?",
+    "retrieved_context": [
+      {"id": "c08", "text": "Neptune is the eighth and farthest known planet from the Sun and, like Uranus, is classified as an ice giant. It has the strongest sustained winds of any planet in the Solar System, with gusts recorded at over 2,000 kilometers per hour. Neptune's existence was predicted mathematically before it was observed, based on irregularities in the orbit of Uranus."},
+      {"id": "c20", "text": "The Kuiper Belt is a ring-shaped region of icy bodies beyond the orbit of Neptune, extending from about 30 to 50 astronomical units from the Sun. It is distinct from the Oort Cloud, a more distant and roughly spherical shell of icy bodies thought to be the source of many long-period comets."},
+      {"id": "c10", "text": "Pluto was classified as the ninth planet from its discovery in 1930 until 2006, when the International Astronomical Union reclassified it as a dwarf planet after adopting a formal definition of what counts as a planet. Pluto orbits in the Kuiper Belt, a region of icy bodies beyond Neptune, and has five known moons, the largest of which is Charon."}
+    ],
+    "answer": "It has the strongest sustained winds of any planet in the Solar System, with gusts recorded at over 2,000 kilometers per hour. Neptune's existence was predicted mathematically before it was observed, based on irregularities in the orbit of Uranus.",
+    "relevant_context_ids": ["c08"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q09",
+    "question": "What is the largest object in the asteroid belt?",
+    "retrieved_context": [
+      {"id": "c09", "text": "The asteroid belt lies between the orbits of Mars and Jupiter and contains millions of rocky bodies left over from the Solar System's formation. The largest object in the belt, Ceres, is classified as a dwarf planet and makes up roughly a third of the belt's total mass. Most asteroids in the belt are too small and too far apart for spacecraft to collide with by accident."},
+      {"id": "c10", "text": "Pluto was classified as the ninth planet from its discovery in 1930 until 2006, when the International Astronomical Union reclassified it as a dwarf planet after adopting a formal definition of what counts as a planet. Pluto orbits in the Kuiper Belt, a region of icy bodies beyond Neptune, and has five known moons, the largest of which is Charon."},
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."}
+    ],
+    "answer": "The asteroid belt lies between the orbits of Mars and Jupiter and contains millions of rocky bodies left over from the Solar System's formation. The largest object in the belt, Ceres, is classified as a dwarf planet and makes up roughly a third of the belt's total mass.",
+    "relevant_context_ids": ["c09"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q10",
+    "question": "When and why was Pluto reclassified as a dwarf planet?",
+    "retrieved_context": [
+      {"id": "c10", "text": "Pluto was classified as the ninth planet from its discovery in 1930 until 2006, when the International Astronomical Union reclassified it as a dwarf planet after adopting a formal definition of what counts as a planet. Pluto orbits in the Kuiper Belt, a region of icy bodies beyond Neptune, and has five known moons, the largest of which is Charon."},
+      {"id": "c09", "text": "The asteroid belt lies between the orbits of Mars and Jupiter and contains millions of rocky bodies left over from the Solar System's formation. The largest object in the belt, Ceres, is classified as a dwarf planet and makes up roughly a third of the belt's total mass. Most asteroids in the belt are too small and too far apart for spacecraft to collide with by accident."},
+      {"id": "c03", "text": "Earth is the third planet from the Sun and the only known planet to support life. About 71 percent of its surface is covered by water. Earth's atmosphere is roughly 78 percent nitrogen and 21 percent oxygen, and its single natural satellite, the Moon, stabilizes the planet's axial tilt."}
+    ],
+    "answer": "Pluto was classified as the ninth planet from its discovery in 1930 until 2006, when the International Astronomical Union reclassified it as a dwarf planet after adopting a formal definition of what counts as a planet. The largest object in the belt, Ceres, is classified as a dwarf planet and makes up roughly a third of the belt's total mass.",
+    "relevant_context_ids": ["c10"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q11",
+    "question": "How does the Sun generate its energy?",
+    "retrieved_context": [
+      {"id": "c11", "text": "The Sun is a G-type main-sequence star that accounts for about 99.8 percent of the mass of the Solar System. It generates energy through nuclear fusion, converting hydrogen into helium in its core, and this process has powered the Sun for roughly 4.6 billion years. The Sun is expected to continue fusing hydrogen for another 5 billion years before evolving into a red giant."},
+      {"id": "c07", "text": "Uranus is an ice giant and the seventh planet from the Sun. It is unique among the planets because it rotates on its side, with an axial tilt of about 98 degrees, which causes extreme seasons that each last around 21 years. Uranus was the first planet discovered using a telescope, found by William Herschel in 1781."},
+      {"id": "c04", "text": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. It has two small moons, Phobos and Deimos, which are thought to be captured asteroids."}
+    ],
+    "answer": "It generates energy through nuclear fusion, converting hydrogen into helium in its core, and this process has powered the Sun for roughly 4.6 billion years. Uranus is an ice giant and the seventh planet from the Sun.",
+    "relevant_context_ids": ["c11"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q12",
+    "question": "Who were the astronauts on the Apollo 11 mission?",
+    "retrieved_context": [
+      {"id": "c12", "text": "The Apollo 11 mission, launched by NASA in July 1969, achieved the first crewed Moon landing. Astronauts Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins remained in orbit aboard the command module. Armstrong's first words upon stepping onto the surface were broadcast live to a television audience estimated at over 600 million people."},
+      {"id": "c14", "text": "The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere. It has captured detailed images of distant galaxies, nebulae, and planets, and its observations helped refine estimates of the age of the universe to about 13.8 billion years. Hubble was serviced by astronauts on five separate Space Shuttle missions."}
+    ],
+    "answer": "The Apollo 11 mission, launched by NASA in July 1969, achieved the first crewed Moon landing. Hubble was serviced by astronauts on five separate Space Shuttle missions.",
+    "relevant_context_ids": ["c12"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q13",
+    "question": "What outer planets did Voyager 2 visit?",
+    "retrieved_context": [
+      {"id": "c13", "text": "The Voyager 1 and Voyager 2 probes were launched by NASA in 1977 to study the outer planets. Voyager 2 remains the only spacecraft to have visited Uranus and Neptune up close. Both probes have since left the heliosphere and entered interstellar space, and they continue to transmit data back to Earth using radioactive decay for power."},
+      {"id": "c22", "text": "The Great Red Spot on Jupiter is a persistent anticyclonic storm large enough to fit two or three Earths inside it, though observations over the past century show it has been gradually shrinking. Wind speeds at its outer edges can exceed 400 kilometers per hour."},
+      {"id": "c07", "text": "Uranus is an ice giant and the seventh planet from the Sun. It is unique among the planets because it rotates on its side, with an axial tilt of about 98 degrees, which causes extreme seasons that each last around 21 years. Uranus was the first planet discovered using a telescope, found by William Herschel in 1781."}
+    ],
+    "answer": "The Voyager 1 and Voyager 2 probes were launched by NASA in 1977 to study the outer planets. Voyager 2 remains the only spacecraft to have visited Uranus and Neptune up close.",
+    "relevant_context_ids": ["c13"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q14",
+    "question": "At what altitude does the Hubble Space Telescope orbit?",
+    "retrieved_context": [
+      {"id": "c14", "text": "The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere. It has captured detailed images of distant galaxies, nebulae, and planets, and its observations helped refine estimates of the age of the universe to about 13.8 billion years. Hubble was serviced by astronauts on five separate Space Shuttle missions."},
+      {"id": "c15", "text": "The International Space Station, or ISS, has been continuously occupied by rotating crews since November 2000, making it the longest continuous human presence in low Earth orbit. It orbits Earth roughly every 90 minutes at an altitude of about 400 kilometers and is a joint project between NASA, Roscosmos, ESA, JAXA, and the Canadian Space Agency."},
+      {"id": "c19", "text": "The James Webb Space Telescope, launched in December 2021, observes primarily in infrared light, which lets it see through dust clouds and detect the faint light of some of the earliest galaxies formed after the Big Bang. It orbits the Sun near a gravitationally stable point called the second Lagrange point, about 1.5 million kilometers from Earth."}
+    ],
+    "answer": "The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere. Hubble was serviced by astronauts on five separate Space Shuttle missions.",
+    "relevant_context_ids": ["c14"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q15",
+    "question": "How often does the International Space Station orbit the Earth?",
+    "retrieved_context": [
+      {"id": "c15", "text": "The International Space Station, or ISS, has been continuously occupied by rotating crews since November 2000, making it the longest continuous human presence in low Earth orbit. It orbits Earth roughly every 90 minutes at an altitude of about 400 kilometers and is a joint project between NASA, Roscosmos, ESA, JAXA, and the Canadian Space Agency."},
+      {"id": "c14", "text": "The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere. It has captured detailed images of distant galaxies, nebulae, and planets, and its observations helped refine estimates of the age of the universe to about 13.8 billion years. Hubble was serviced by astronauts on five separate Space Shuttle missions."},
+      {"id": "c10", "text": "Pluto was classified as the ninth planet from its discovery in 1930 until 2006, when the International Astronomical Union reclassified it as a dwarf planet after adopting a formal definition of what counts as a planet. Pluto orbits in the Kuiper Belt, a region of icy bodies beyond Neptune, and has five known moons, the largest of which is Charon."}
+    ],
+    "answer": "The International Space Station, or ISS, has been continuously occupied by rotating crews since November 2000, making it the longest continuous human presence in low Earth orbit. The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere.",
+    "relevant_context_ids": ["c15"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q16",
+    "question": "What did the Perseverance rover bring to Mars that achieved a first?",
+    "retrieved_context": [
+      {"id": "c16", "text": "The Mars rovers Curiosity and Perseverance were sent to search for evidence of past microbial life and to study the Martian climate and geology. Perseverance, which landed in Jezero Crater in February 2021, carries a small helicopter named Ingenuity that became the first aircraft to achieve powered, controlled flight on another planet. Curiosity has been operating on Mars since 2012."},
+      {"id": "c04", "text": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. It has two small moons, Phobos and Deimos, which are thought to be captured asteroids."},
+      {"id": "c12", "text": "The Apollo 11 mission, launched by NASA in July 1969, achieved the first crewed Moon landing. Astronauts Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins remained in orbit aboard the command module. Armstrong's first words upon stepping onto the surface were broadcast live to a television audience estimated at over 600 million people."}
+    ],
+    "answer": "The Mars rovers Curiosity and Perseverance were sent to search for evidence of past microbial life and to study the Martian climate and geology. The Apollo 11 mission, launched by NASA in July 1969, achieved the first crewed Moon landing.",
+    "relevant_context_ids": ["c16"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q17",
+    "question": "How far away is Alpha Centauri in light-years?",
+    "retrieved_context": [
+      {"id": "c17", "text": "A light-year is the distance light travels in one year, roughly 9.46 trillion kilometers, and is used to measure distances between stars because those distances are too large to express conveniently in kilometers. The nearest star system to the Sun, Alpha Centauri, is about 4.37 light-years away."},
+      {"id": "c24", "text": "The Moon formed roughly 4.5 billion years ago, most likely from debris left after a Mars-sized body, sometimes called Theia, collided with the early Earth. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions."},
+      {"id": "c19", "text": "The James Webb Space Telescope, launched in December 2021, observes primarily in infrared light, which lets it see through dust clouds and detect the faint light of some of the earliest galaxies formed after the Big Bang. It orbits the Sun near a gravitationally stable point called the second Lagrange point, about 1.5 million kilometers from Earth."}
+    ],
+    "answer": "The nearest star system to the Sun, Alpha Centauri, is about 4.37 light-years away. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions.",
+    "relevant_context_ids": ["c17"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q18",
+    "question": "How was the first direct image of a black hole obtained?",
+    "retrieved_context": [
+      {"id": "c18", "text": "A black hole forms when a massive star collapses under its own gravity after exhausting its nuclear fuel, concentrating its mass into a region so dense that not even light can escape past its event horizon. The first direct image of a black hole's silhouette, at the center of the galaxy M87, was released by the Event Horizon Telescope collaboration in 2019."}
+    ],
+    "answer": "A black hole forms when a massive star collapses under its own gravity after exhausting its nuclear fuel, concentrating its mass into a region so dense that not even light can escape past its event horizon. The first direct image of a black hole's silhouette, at the center of the galaxy M87, was released by the Event Horizon Telescope collaboration in 2019.",
+    "relevant_context_ids": ["c18"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q19",
+    "question": "Why does the James Webb Space Telescope observe in infrared?",
+    "retrieved_context": [
+      {"id": "c19", "text": "The James Webb Space Telescope, launched in December 2021, observes primarily in infrared light, which lets it see through dust clouds and detect the faint light of some of the earliest galaxies formed after the Big Bang. It orbits the Sun near a gravitationally stable point called the second Lagrange point, about 1.5 million kilometers from Earth."},
+      {"id": "c14", "text": "The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere. It has captured detailed images of distant galaxies, nebulae, and planets, and its observations helped refine estimates of the age of the universe to about 13.8 billion years. Hubble was serviced by astronauts on five separate Space Shuttle missions."},
+      {"id": "c15", "text": "The International Space Station, or ISS, has been continuously occupied by rotating crews since November 2000, making it the longest continuous human presence in low Earth orbit. It orbits Earth roughly every 90 minutes at an altitude of about 400 kilometers and is a joint project between NASA, Roscosmos, ESA, JAXA, and the Canadian Space Agency."}
+    ],
+    "answer": "The James Webb Space Telescope, launched in December 2021, observes primarily in infrared light, which lets it see through dust clouds and detect the faint light of some of the earliest galaxies formed after the Big Bang. The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere.",
+    "relevant_context_ids": ["c19"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q20",
+    "question": "How is the Kuiper Belt different from the Oort Cloud?",
+    "retrieved_context": [
+      {"id": "c20", "text": "The Kuiper Belt is a ring-shaped region of icy bodies beyond the orbit of Neptune, extending from about 30 to 50 astronomical units from the Sun. It is distinct from the Oort Cloud, a more distant and roughly spherical shell of icy bodies thought to be the source of many long-period comets."},
+      {"id": "c09", "text": "The asteroid belt lies between the orbits of Mars and Jupiter and contains millions of rocky bodies left over from the Solar System's formation. The largest object in the belt, Ceres, is classified as a dwarf planet and makes up roughly a third of the belt's total mass. Most asteroids in the belt are too small and too far apart for spacecraft to collide with by accident."},
+      {"id": "c10", "text": "Pluto was classified as the ninth planet from its discovery in 1930 until 2006, when the International Astronomical Union reclassified it as a dwarf planet after adopting a formal definition of what counts as a planet. Pluto orbits in the Kuiper Belt, a region of icy bodies beyond Neptune, and has five known moons, the largest of which is Charon."}
+    ],
+    "answer": "It is distinct from the Oort Cloud, a more distant and roughly spherical shell of icy bodies thought to be the source of many long-period comets. Pluto orbits in the Kuiper Belt, a region of icy bodies beyond Neptune, and has five known moons, the largest of which is Charon.",
+    "relevant_context_ids": ["c20"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q21",
+    "question": "What triggers a supernova?",
+    "retrieved_context": [
+      {"id": "c21", "text": "A supernova is the explosive death of a star, occurring either when a massive star's core collapses or when a white dwarf in a binary system accretes enough matter to trigger a runaway nuclear reaction. Supernovae can briefly outshine an entire galaxy and are responsible for dispersing heavy elements, such as carbon, oxygen, and iron, into space."}
+    ],
+    "answer": "A supernova is the explosive death of a star, occurring either when a massive star's core collapses or when a white dwarf in a binary system accretes enough matter to trigger a runaway nuclear reaction. Supernovae can briefly outshine an entire galaxy and are responsible for dispersing heavy elements, such as carbon, oxygen, and iron, into space.",
+    "relevant_context_ids": ["c21"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q22",
+    "question": "Why is Europa considered a candidate for life beyond Earth?",
+    "retrieved_context": [
+      {"id": "c23", "text": "Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth."},
+      {"id": "c03", "text": "Earth is the third planet from the Sun and the only known planet to support life. About 71 percent of its surface is covered by water. Earth's atmosphere is roughly 78 percent nitrogen and 21 percent oxygen, and its single natural satellite, the Moon, stabilizes the planet's axial tilt."},
+      {"id": "c05", "text": "Jupiter is the largest planet in the Solar System, with a mass more than 300 times that of Earth. It is a gas giant composed mainly of hydrogen and helium and is known for its Great Red Spot, a giant storm that has been raging for at least 150 years. Jupiter has 95 confirmed moons, including the four large Galilean moons: Io, Europa, Ganymede, and Callisto."}
+    ],
+    "answer": "This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth. Earth is the third planet from the Sun and the only known planet to support life.",
+    "relevant_context_ids": ["c23"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q23",
+    "question": "How did the Moon likely form?",
+    "retrieved_context": [
+      {"id": "c24", "text": "The Moon formed roughly 4.5 billion years ago, most likely from debris left after a Mars-sized body, sometimes called Theia, collided with the early Earth. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions."},
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."},
+      {"id": "c03", "text": "Earth is the third planet from the Sun and the only known planet to support life. About 71 percent of its surface is covered by water. Earth's atmosphere is roughly 78 percent nitrogen and 21 percent oxygen, and its single natural satellite, the Moon, stabilizes the planet's axial tilt."}
+    ],
+    "answer": "The Moon formed roughly 4.5 billion years ago, most likely from debris left after a Mars-sized body, sometimes called Theia, collided with the early Earth. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water.",
+    "relevant_context_ids": ["c24"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q24",
+    "question": "How often does Halley's Comet return to the inner Solar System?",
+    "retrieved_context": [
+      {"id": "c25", "text": "A comet is a small icy body that, as it approaches the Sun, heats up and releases gas and dust, forming a glowing coma and often a visible tail. Halley's Comet, the best-known periodic comet, returns to the inner Solar System approximately every 76 years and was last visible from Earth in 1986."},
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."},
+      {"id": "c04", "text": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. It has two small moons, Phobos and Deimos, which are thought to be captured asteroids."}
+    ],
+    "answer": "A comet is a small icy body that, as it approaches the Sun, heats up and releases gas and dust, forming a glowing coma and often a visible tail. Halley's Comet, the best-known periodic comet, returns to the inner Solar System approximately every 76 years and was last visible from Earth in 1986.",
+    "relevant_context_ids": ["c25"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q25",
+    "question": "How many moons does Jupiter have and what are the four largest called?",
+    "retrieved_context": [
+      {"id": "c05", "text": "Jupiter is the largest planet in the Solar System, with a mass more than 300 times that of Earth. It is a gas giant composed mainly of hydrogen and helium and is known for its Great Red Spot, a giant storm that has been raging for at least 150 years. Jupiter has 95 confirmed moons, including the four large Galilean moons: Io, Europa, Ganymede, and Callisto."},
+      {"id": "c04", "text": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. It has two small moons, Phobos and Deimos, which are thought to be captured asteroids."},
+      {"id": "c23", "text": "Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth."}
+    ],
+    "answer": "Jupiter is the largest planet in the Solar System, with a mass more than 300 times that of Earth. Jupiter has 95 confirmed moons, including the four large Galilean moons: Io, Europa, Ganymede, and Callisto.",
+    "relevant_context_ids": ["c05"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q26",
+    "question": "What is a light-year and why is it used in astronomy?",
+    "retrieved_context": [
+      {"id": "c17", "text": "A light-year is the distance light travels in one year, roughly 9.46 trillion kilometers, and is used to measure distances between stars because those distances are too large to express conveniently in kilometers. The nearest star system to the Sun, Alpha Centauri, is about 4.37 light-years away."},
+      {"id": "c19", "text": "The James Webb Space Telescope, launched in December 2021, observes primarily in infrared light, which lets it see through dust clouds and detect the faint light of some of the earliest galaxies formed after the Big Bang. It orbits the Sun near a gravitationally stable point called the second Lagrange point, about 1.5 million kilometers from Earth."},
+      {"id": "c24", "text": "The Moon formed roughly 4.5 billion years ago, most likely from debris left after a Mars-sized body, sometimes called Theia, collided with the early Earth. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions."}
+    ],
+    "answer": "A light-year is the distance light travels in one year, roughly 9.46 trillion kilometers, and is used to measure distances between stars because those distances are too large to express conveniently in kilometers. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions.",
+    "relevant_context_ids": ["c17"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q27",
+    "question": "What powers the Voyager probes now that they are in interstellar space?",
+    "retrieved_context": [
+      {"id": "c13", "text": "The Voyager 1 and Voyager 2 probes were launched by NASA in 1977 to study the outer planets. Voyager 2 remains the only spacecraft to have visited Uranus and Neptune up close. Both probes have since left the heliosphere and entered interstellar space, and they continue to transmit data back to Earth using radioactive decay for power."},
+      {"id": "c15", "text": "The International Space Station, or ISS, has been continuously occupied by rotating crews since November 2000, making it the longest continuous human presence in low Earth orbit. It orbits Earth roughly every 90 minutes at an altitude of about 400 kilometers and is a joint project between NASA, Roscosmos, ESA, JAXA, and the Canadian Space Agency."},
+      {"id": "c14", "text": "The Hubble Space Telescope was launched in 1990 and orbits Earth at an altitude of about 540 kilometers, above the distortion caused by the atmosphere. It has captured detailed images of distant galaxies, nebulae, and planets, and its observations helped refine estimates of the age of the universe to about 13.8 billion years. Hubble was serviced by astronauts on five separate Space Shuttle missions."}
+    ],
+    "answer": "The Voyager 1 and Voyager 2 probes were launched by NASA in 1977 to study the outer planets. Both probes have since left the heliosphere and entered interstellar space, and they continue to transmit data back to Earth using radioactive decay for power.",
+    "relevant_context_ids": ["c13"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q28",
+    "question": "What is the significance of the second Lagrange point for JWST?",
+    "retrieved_context": [
+      {"id": "c19", "text": "The James Webb Space Telescope, launched in December 2021, observes primarily in infrared light, which lets it see through dust clouds and detect the faint light of some of the earliest galaxies formed after the Big Bang. It orbits the Sun near a gravitationally stable point called the second Lagrange point, about 1.5 million kilometers from Earth."},
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."},
+      {"id": "c02", "text": "Venus is the second planet from the Sun and is almost the same size as Earth. Its thick atmosphere is made mostly of carbon dioxide and traps heat so effectively that Venus is the hottest planet in the Solar System, with surface temperatures around 465 degrees Celsius. Venus rotates in the opposite direction to most planets, a phenomenon called retrograde rotation."}
+    ],
+    "answer": "It orbits the Sun near a gravitationally stable point called the second Lagrange point, about 1.5 million kilometers from Earth. Venus is the second planet from the Sun and is almost the same size as Earth.",
+    "relevant_context_ids": ["c19"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q29",
+    "question": "Who first discovered Uranus and how?",
+    "retrieved_context": [
+      {"id": "c07", "text": "Uranus is an ice giant and the seventh planet from the Sun. It is unique among the planets because it rotates on its side, with an axial tilt of about 98 degrees, which causes extreme seasons that each last around 21 years. Uranus was the first planet discovered using a telescope, found by William Herschel in 1781."},
+      {"id": "c08", "text": "Neptune is the eighth and farthest known planet from the Sun and, like Uranus, is classified as an ice giant. It has the strongest sustained winds of any planet in the Solar System, with gusts recorded at over 2,000 kilometers per hour. Neptune's existence was predicted mathematically before it was observed, based on irregularities in the orbit of Uranus."},
+      {"id": "c13", "text": "The Voyager 1 and Voyager 2 probes were launched by NASA in 1977 to study the outer planets. Voyager 2 remains the only spacecraft to have visited Uranus and Neptune up close. Both probes have since left the heliosphere and entered interstellar space, and they continue to transmit data back to Earth using radioactive decay for power."}
+    ],
+    "answer": "Uranus is an ice giant and the seventh planet from the Sun. Uranus was the first planet discovered using a telescope, found by William Herschel in 1781.",
+    "relevant_context_ids": ["c07"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q30",
+    "question": "What is Mercury's day length compared to Earth's?",
+    "retrieved_context": [
+      {"id": "c01", "text": "Mercury is the closest planet to the Sun and the smallest planet in the Solar System. It has almost no atmosphere, which means its surface temperature swings from about 430 degrees Celsius during the day to minus 180 degrees Celsius at night. A single day on Mercury, from sunrise to sunrise, lasts roughly 176 Earth days."},
+      {"id": "c24", "text": "The Moon formed roughly 4.5 billion years ago, most likely from debris left after a Mars-sized body, sometimes called Theia, collided with the early Earth. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions."},
+      {"id": "c03", "text": "Earth is the third planet from the Sun and the only known planet to support life. About 71 percent of its surface is covered by water. Earth's atmosphere is roughly 78 percent nitrogen and 21 percent oxygen, and its single natural satellite, the Moon, stabilizes the planet's axial tilt."}
+    ],
+    "answer": "Mercury is the closest planet to the Sun and the smallest planet in the Solar System. A single day on Mercury, from sunrise to sunrise, lasts roughly 176 Earth days.",
+    "relevant_context_ids": ["c01"],
+    "case_type": "clean"
+  },
+  {
+    "id": "q31",
+    "question": "What is the rotation direction of Venus and why is it unusual?",
+    "retrieved_context": [
+      {"id": "c02", "text": "Venus is the second planet from the Sun and is almost the same size as Earth. Its thick atmosphere is made mostly of carbon dioxide and traps heat so effectively that Venus is the hottest planet in the Solar System, with surface temperatures around 465 degrees Celsius. Venus rotates in the opposite direction to most planets, a phenomenon called retrograde rotation."}
+    ],
+    "answer": "Venus is the second planet from the Sun and is almost the same size as Earth. Venus rotates in the opposite direction to most planets, a phenomenon called retrograde rotation. Venus also has three small natural moons that orbit it in a tight triangular formation.",
+    "relevant_context_ids": ["c02"],
+    "case_type": "fabricated"
+  },
+  {
+    "id": "q32",
+    "question": "What is Mars's largest volcano and how tall is it?",
+    "retrieved_context": [
+      {"id": "c04", "text": "Mars is the fourth planet from the Sun and is often called the Red Planet because iron oxide on its surface gives it a reddish color. Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. It has two small moons, Phobos and Deimos, which are thought to be captured asteroids."},
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."},
+      {"id": "c16", "text": "The Mars rovers Curiosity and Perseverance were sent to search for evidence of past microbial life and to study the Martian climate and geology. Perseverance, which landed in Jezero Crater in February 2021, carries a small helicopter named Ingenuity that became the first aircraft to achieve powered, controlled flight on another planet. Curiosity has been operating on Mars since 2012."}
+    ],
+    "answer": "Mars has the largest volcano in the Solar System, Olympus Mons, which stands about 22 kilometers tall. Curiosity has been operating on Mars since 2012. This volcano, Olympus Mons, last erupted in 1972 and is still classified as fully active today.",
+    "relevant_context_ids": ["c04"],
+    "case_type": "fabricated"
+  },
+  {
+    "id": "q33",
+    "question": "When did the Apollo 11 Moon landing happen and who was aboard?",
+    "retrieved_context": [
+      {"id": "c12", "text": "The Apollo 11 mission, launched by NASA in July 1969, achieved the first crewed Moon landing. Astronauts Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins remained in orbit aboard the command module. Armstrong's first words upon stepping onto the surface were broadcast live to a television audience estimated at over 600 million people."},
+      {"id": "c24", "text": "The Moon formed roughly 4.5 billion years ago, most likely from debris left after a Mars-sized body, sometimes called Theia, collided with the early Earth. The Moon is slowly moving away from Earth at a rate of about 3.8 centimeters per year due to tidal interactions."},
+      {"id": "c06", "text": "Saturn is the second-largest planet in the Solar System and is famous for its extensive ring system, made up mostly of ice particles with some rocky debris. Saturn's largest moon, Titan, is the only moon in the Solar System known to have a dense atmosphere and stable liquid lakes, though they are made of methane and ethane rather than water."}
+    ],
+    "answer": "The Apollo 11 mission, launched by NASA in July 1969, achieved the first crewed Moon landing. Astronauts Neil Armstrong and Buzz Aldrin walked on the lunar surface while Michael Collins remained in orbit aboard the command module. The Apollo 11 crew stayed on the lunar surface for exactly fourteen days before returning to Earth.",
+    "relevant_context_ids": ["c12"],
+    "case_type": "fabricated"
+  },
+  {
+    "id": "q34",
+    "question": "What spacecraft have visited Neptune up close?",
+    "retrieved_context": [
+      {"id": "c23", "text": "Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth."}
+    ],
+    "answer": "Europa, one of Jupiter's four large Galilean moons, has a smooth icy surface that scientists believe hides a liquid water ocean beneath it, kept warm by tidal heating from Jupiter's gravity. This subsurface ocean makes Europa one of the leading candidates in the search for life beyond Earth.",
+    "relevant_context_ids": ["c08", "c13"],
+    "case_type": "off_topic"
+  },
+  {
+    "id": "q35",
+    "question": "What is the composition of Saturn's rings?",
+    "retrieved_context": [
+      {"id": "c01", "text": "Mercury is the closest planet to the Sun and the smallest planet in the Solar System. It has almost no atmosphere, which means its surface temperature swings from about 430 degrees Celsius during the day to minus 180 degrees Celsius at night. A single day on Mercury, from sunrise to sunrise, lasts roughly 176 Earth days."},
+      {"id": "c02", "text": "Venus is the second planet from the Sun and is almost the same size as Earth. Its thick atmosphere is made mostly of carbon dioxide and traps heat so effectively that Venus is the hottest planet in the Solar System, with surface temperatures around 465 degrees Celsius. Venus rotates in the opposite direction to most planets, a phenomenon called retrograde rotation."},
+      {"id": "c03", "text": "Earth is the third planet from the Sun and the only known planet to support life. About 71 percent of its surface is covered by water. Earth's atmosphere is roughly 78 percent nitrogen and 21 percent oxygen, and its single natural satellite, the Moon, stabilizes the planet's axial tilt."}
+    ],
+    "answer": "Mercury is the closest planet to the Sun and the smallest planet in the Solar System. It has almost no atmosphere, which means its surface temperature swings from about 430 degrees Celsius during the day to minus 180 degrees Celsius at night.",
+    "relevant_context_ids": ["c06"],
+    "case_type": "off_topic"
+  }
+]
